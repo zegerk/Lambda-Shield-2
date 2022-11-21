@@ -6,3 +6,7 @@ This code was written to use the [Lambda Shield 2 from Bylund](http://www.bylund
 ## Configuring
 
 Update your wifi network name, password and IP address in the code. When starting up the serial port shows information about the wifi networks and their quality.
+
+# Credits
+
+Code based on the example of [Bylund](https://github.com/Bylund/Lambda-Shield-2-Example).
