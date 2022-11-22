@@ -723,7 +723,7 @@ void loop() {
   if ( (100 / SERIAL_RATE) ==  serial_counter) {
 
     // Reconnect on disconnect
-    if ( WiFi.status() != WL_CONNECTED ) {
+    if ( WiFi.status() != WL_CONNECTED || !mqttClient.connected() ) {
       connectWifi();
     }
 
